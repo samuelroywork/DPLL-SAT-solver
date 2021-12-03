@@ -6,8 +6,6 @@ import random
 trail=dict()
 clauses = []
 
-
-#parser function given already
 def parse_dimacs():
     with open(sys.argv[1], 'r') as input_file:
         for line in input_file:
